@@ -14,8 +14,8 @@ up: prepare
 		mkdir docker;\
 		if [ ! -d www ]; then\
 			cd docker ;\
+			mkdir db;\
 			mkdir www && cd ../../ ;\
-			mkdir db && cd ../../ ;\
 		fi ;\
 	fi
 	@sudo cp ./index.php ./docker/www/;
