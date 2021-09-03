@@ -14,7 +14,7 @@ up: prepare
 		mkdir docker;\
 		if [ ! -d www ]; then\
 			cd docker ;\
-			mkdir db;\
+			mkdir db ;\
 			mkdir www && cd ../../ ;\
 		fi ;\
 	fi
