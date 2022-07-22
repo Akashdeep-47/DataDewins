@@ -1,4 +1,3 @@
-# datadewins
 
 ## week 1 - 2
 - [Install VM](week1-2/Install-VM.md)
